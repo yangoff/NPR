@@ -39,12 +39,12 @@
     <button ion-button  icon-only color="dark" round>
       <ion-icon name="logo-google"> </ion-icon>
     </button>
-    <button ion-button  icon-only color="dark" round>
+    <button ion-button  icon-only color="dark" round (click)='login()'>
       <ion-icon ios="ios-log-in" md="md-log-in"></ion-icon>
     </button>
     <br>
     <br>Sem conta?<br>
-    <button ion-button color="secondary" clear>Registre-se</button>
+    <button ion-button color="secondary" clear (click)='register()'>Registre-se</button>
 </ion-slide>
 
 </ion-slides>
